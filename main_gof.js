@@ -11,7 +11,7 @@ function make_2d_array(x_axis, y_axis) {
   return arr;
 }
 function setup() {
-  createCanvas(500,1000);
+  createCanvas(500,500);
   x_axis = width / resolution;
   y_axis = height / resolution;
   grid = make_2d_array(x_axis, y_axis);
@@ -73,3 +73,4 @@ function count_nighbors(grid, x, y) {
   return sum;
 
 }
+
